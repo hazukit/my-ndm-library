@@ -1,0 +1,31 @@
+{
+  "name": "my-ndm-library",
+  "version": "1.0.0",
+  "description": "Trying to create an NDM library",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazukit/my-ndm-library.git"
+  },
+  "keywords": [
+    "ndm",
+    "library"
+  ],
+  "author": "hazukit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hazukit/my-ndm-library/issues"
+  },
+  "homepage": "https://github.com/hazukit/my-ndm-library#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "babel-cli": "^6.26.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
