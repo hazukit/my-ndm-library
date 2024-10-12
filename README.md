@@ -110,7 +110,7 @@ npm run build
 ```
 これで、dist/bundle.js が生成されます。
 
-### 6. GitHubリポジトリのコードをコミットします。
+### 6. GitHubリポジトリのコードをコミット
 distフォルダもコミットします。
 
 これで、npm install github:hazukit/my-ndm-library を使ってライブラリをインストールし、他のプロジェクトで使える構成が完成します。
